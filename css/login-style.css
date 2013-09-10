@@ -1,0 +1,11 @@
+fieldset { border: 1px solid #ccc; padding: 1em; margin: 0; }
+
+legend { 
+color: #ccc; 
+font-size: 200%; 
+}
+
+input { 
+font-family: Arial, verdana; 
+font-size: 175%; 
+padding: 5px; }

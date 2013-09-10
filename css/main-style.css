@@ -1,0 +1,78 @@
+* { 
+margin: 0; 
+padding: 0; 
+}
+
+html, body { 
+height:100%; 
+}
+
+body { 
+background: #343434 url('../images/background-line.jpg') repeat-x; 
+font-family: Bitstream Vera Sans, Tahoma, sans-serif; 
+font-size: 11px; 
+color: #757575; 
+margin:0px; padding:0px; 
+}
+
+#head { 
+height: 6%; 
+background: #151515; 
+}
+
+#logo { 
+height: 512px; 
+background: url('images/starfish.png') no-repeat top center; 
+padding: 0px 0px 0px 0px; 
+}
+
+#maincontent { 
+width:100%; 
+height:94%; 
+}
+
+#foot { 
+height: 6%; 
+background: #151515; 
+}
+
+#subtext { 
+text-align: center; 
+}
+
+a { 
+color:#757575; 
+text-decoration: underline; 
+}
+
+a:hover { 
+color: #ffffff; 
+}
+
+#leftside {
+float: left;
+padding-top: 1em;
+padding-left: 1em;
+padding-bottom: 1em;
+width: 15em;
+background: #343434;
+color: #757575;
+}
+
+#rightside {
+font-family: Arial;
+color: #757575;
+background-color: #343434; 
+padding: 2em;
+}
+
+#canvas {
+background-color: black; 
+border-color: #757575;
+border-style: solid;
+border-width: thin;
+}
+
+input { 
+font-family: Arial, verdana; 
+}

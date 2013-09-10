@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+		<title>Gradius JS</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/shooter.js"></script>
+		<script type="text/javascript" src="js/mootools.js"></script>
+		<script type="text/javascript" src="js/sexylightbox.js"></script>
+		<link href="css/main-style.css" rel="stylesheet" type="text/css">
+		<link href="css/sexylightbox.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			window.addEvent('domready', function() {
+				new SexyLightBox({OverlayStyles:{'background-color':'white', 'opacity': 0.4}});
+			});
+		</script>
+	</head><body onkeydown="knapp_ner(event)" onkeyup="knapp_upp(event)" onkeypress="knapp_tryck(event)">
+		<div id="maincontent">
+			<table id="maincontent" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td valign="middle" align="center"><br><br>
+						Do you need playing <a href="instruktioner.html?height=510&amp;width=400" rel="sexylightbox">instructions?</a> | <b>Score: </b> <span id="resultat">7000</span><br><br>
+
+						<canvas id="canvas" class="tip_me" width="600" height="500" onmousedown="gogogo()">
+							Sorry, only for Firefox and Opera. 
+						</canvas>
+						<br>
+						<br>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+	
+	<div id="foot">
+		<div id="subtext">
+			<br>
+			By <a href="mailto:iingemar@gmail.com">Ingemar Hjälmstad</a>
+		</div>
+	</div>
+<div style="display: none; z-index: 65555; position: absolute; top: 0pt; left: 0pt; background-color: white; visibility: hidden; opacity: 0; height: 569px; width: 1063px;"></div><div style="z-index: 65555; display: none; position: absolute; top: -320px; left: 288px;" class="SexyLightBox_cb"><div style="position: absolute; left: 7px; top: 7px; float: left; overflow: hidden; z-index: 65556;"></div><div style="position: absolute; width: 486px; z-index: 65557;"><div style="background-image: url(&quot;images/sexyimages/black/bgSexy.png&quot;);" class="bt"><a href="#"><img src="images/sexyimages/black/SexyClose.png"></a><div style="background-image: url(&quot;images/sexyimages/black/bgSexy.png&quot;);"></div></div><div style="height: 320px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0);" class="i1"></div><div style="background-image: url(&quot;images/sexyimages/black/bgSexy.png&quot;);" class="bb"><div style="background-image: url(&quot;images/sexyimages/black/bgSexy.png&quot;);" class="innerbb"></div></div></div></div></body></html>
